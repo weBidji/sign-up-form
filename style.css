@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column{
+    flex-direction:column;
+}
+
+#main-img {
+    max-height: 100vh;
+    display: block;
+}
+form{
+    flex-wrap:wrap;
+    margin:auto auto;
+    border:1px solid black;
+}
+
+.inputs{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+}
+
+input{
+    width:60%;
+    height:25px;
+}
