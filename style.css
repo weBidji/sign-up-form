@@ -8,7 +8,7 @@
 
 :root {
     --capires: Capires, arial, sans-serif;
-    --krub: Krub, arial, sans-serif;
+    --krub: 'Krub', arial, sans-serif;
     --dark-sea-blue: #063129;
     --light-blue: #1F816F;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 h1 {
-    font-family: var(--capires);
+    font-family: 'Capires', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 6rem;
     color: #F6F8FD;
@@ -143,22 +143,25 @@ input {
 
 }
 
-input:valid{
-    border-color:#15ac07;
-}
-input:valid:before{
-position: relative;
-  left: -35px;
-  content: "&#10004;";
-}
-input:placeholder-shown{
-    border-color:#063129;
+input:valid {
+    border-color: #15ac07;
 }
 
-input:user-invalid{
-    border-color:#ac1a07;
+input:valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
 }
-input:user-invalid::before{
+
+input:placeholder-shown {
+    border-color: #063129;
+}
+
+input:user-invalid {
+    border-color: #ac1a07;
+}
+
+input:user-invalid::before {
     position: relative;
     left: -35px;
     content: "X";
@@ -281,27 +284,27 @@ footer {
 
 }
 
-@media screen and (min-height:1100px){
+@media screen and (min-height:1100px) {
 
-    .green-bg{
-        height:400px;
+    .green-bg {
+        height: 400px;
     }
-    
+
 }
 
 
 
 @font-face {
-    font-family: Capires;
+    font-family: 'Capires';
     src: url(/fonts/CapiresDemoRegular-JR5ZM.otf);
 }
 
 @font-face {
-    font-family: Krub;
+    font-family: 'Krub';
     src: url(/fonts/Krub-Medium.ttf)
 }
 
 @font-face {
-    font-family: Krub-bold;
+    font-family: 'Krub-bold';
     src: url(/fonts/Krub-Bold.ttf);
 }
