@@ -296,15 +296,15 @@ footer {
 
 @font-face {
     font-family: 'Capires';
-    src: url(/fonts/CapiresDemoRegular-JR5ZM.otf);
+    src: url(/fonts/CapiresDemoRegular-JR5ZM.otf) format(otf);
 }
 
 @font-face {
     font-family: 'Krub';
-    src: url(/fonts/Krub-Medium.ttf)
+    src: url(/fonts/Krub-Medium.ttf) format(ttf);
 }
 
 @font-face {
     font-family: 'Krub-bold';
-    src: url(/fonts/Krub-Bold.ttf);
+    src: url(/fonts/Krub-Bold.ttf) format(ttf);
 }
